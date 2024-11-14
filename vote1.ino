@@ -10,7 +10,7 @@
 #define TX_PIN 1         
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&Serial);
-LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+LiquidCrystal lcd(12, 11, 5, 4);
 
 int votes[3] = {0, 0, 0};        
 int registeredUsers = 0;          
