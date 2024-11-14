@@ -2,14 +2,14 @@
 #include <Wire.h>
 #include <LiquidCrystal.h>
 
-#define VOTE_BUTTON_1 2   
-#define VOTE_BUTTON_2 3  
-#define VOTE_BUTTON_3 4   
+#define VOTE_BUTTON_1 9  
+#define VOTE_BUTTON_2 10  
+#define VOTE_BUTTON_3 11  
 
-#define RX_PIN 10        
-#define TX_PIN 11         
+#define RX_PIN 0        
+#define TX_PIN 1         
 
-Adafruit_Fingerprint finger = Adafruit_Fingerprint(&Serial1);
+Adafruit_Fingerprint finger = Adafruit_Fingerprint(&Serial);
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 int votes[3] = {0, 0, 0};        
