@@ -1,6 +1,6 @@
 #include <Adafruit_Fingerprint.h>
 #include <Wire.h>
-#include <LiquidCrystal.h>
+#include <LiquidCrystal_I2C.h>
 
 #define VOTE_BUTTON_1 9  
 #define VOTE_BUTTON_2 10  
